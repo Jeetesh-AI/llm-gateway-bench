@@ -1,0 +1,65 @@
+{
+  "slo_target_ms": 1500.0,
+  "levels": [
+    {
+      "concurrent_users": 5,
+      "total_messages": 15,
+      "slo_attainment_pct": 100.0,
+      "p50_ttft_ms": 605.4,
+      "p95_ttft_ms": 616.9,
+      "retries_503": 0,
+      "errors": 0,
+      "duration_s": 2.27
+    },
+    {
+      "concurrent_users": 10,
+      "total_messages": 30,
+      "slo_attainment_pct": 100.0,
+      "p50_ttft_ms": 837.5,
+      "p95_ttft_ms": 842.1,
+      "retries_503": 0,
+      "errors": 0,
+      "duration_s": 3.0
+    },
+    {
+      "concurrent_users": 15,
+      "total_messages": 45,
+      "slo_attainment_pct": 80.0,
+      "p50_ttft_ms": 835.0,
+      "p95_ttft_ms": 1554.3,
+      "retries_503": 41,
+      "errors": 3,
+      "duration_s": 3.96
+    },
+    {
+      "concurrent_users": 20,
+      "total_messages": 60,
+      "slo_attainment_pct": 70.0,
+      "p50_ttft_ms": 839.1,
+      "p95_ttft_ms": 1601.5,
+      "retries_503": 94,
+      "errors": 11,
+      "duration_s": 4.28
+    },
+    {
+      "concurrent_users": 25,
+      "total_messages": 75,
+      "slo_attainment_pct": 56.0,
+      "p50_ttft_ms": 852.8,
+      "p95_ttft_ms": 1616.9,
+      "retries_503": 163,
+      "errors": 22,
+      "duration_s": 4.82
+    },
+    {
+      "concurrent_users": 30,
+      "total_messages": 90,
+      "slo_attainment_pct": 41.1,
+      "p50_ttft_ms": 1091.8,
+      "p95_ttft_ms": 1712.6,
+      "retries_503": 246,
+      "errors": 32,
+      "duration_s": 5.15
+    }
+  ]
+}
